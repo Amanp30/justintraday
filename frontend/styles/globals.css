@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+
+}
+
+div#__next {
+    display: grid;
+    grid-template-columns: 16% 80%;
+    grid-gap: 4%;
+}
+
+.divide {
+    display: flex;
+    align-items: center;
+    padding: 2em 2em 2em 0;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buttonside button {
+    padding: .8em;
+    border: none;
+    background: darkblue;
+    color: white;
+    border-radius: .4em;
+}
+
+tr {
+    display: flex;
+    width: 100%;
+}
+
+td, th {
+    width: 136px;
+}
+
+	table {
+			border:1px solid #b3adad;
+			border-collapse:collapse;
+			padding:5px;
+		}
+		table th {
+			border:1px solid #b3adad;
+			padding:5px;
+			background: #f0f0f0;
+			color: #313030;
+		}
+		table td {
+			border:1px solid #b3adad;
+			text-align:center;
+			padding:5px;
+			background: #ffffff;
+			color: #313030;
+		}
+
+
+        button.deletetrade {
+    background: red;
+    border: none;
+    color: white;
+    padding: 4px 6px;
+    border-radius: 6px;
+}
+
+button.edittrade {
+    background: #008000;
+    border: none;
+    color: white;
+    padding: 4px 6px;
+    border-radius: 6px;
+    margin-left: 1em;
+}
+
+div#theupdateformid {
+    background: #e2e2e27a;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#theupdateformid form#thetrade {
+    background: white;
+    padding: 2em;
+    border-radius: 1em;
+    width: 50%;
+}
+
+.ffg {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .8em;
+}
+
+input, select {
+    padding: .6em;
+    margin-top: .40em;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    cursor: pointer;
+    border: 1px solid grey;
+    border-radius: 6px;
+}
+
+.ffg label {
+    text-transform: capitalize;
+}
+
+.thegroups {
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: 30% 30% 30%;
+}
+
+input.updateji {
+    padding: 1em;
+    background: darkblue;
+    color: white;
+    border: none;
+    border-radius: 0.4em;
+    margin-right: 2em;
+    width: 10em;
+}
+
+input.cancelji {
+    padding: 1em;
+    background: #ff2222;
+    color: white;
+    border: none;
+    border-radius: 0.4em;
+    margin-right: 2em;
+    width: 10em;
+}
+.theactionbutton {
+    margin-top: 1em;
+}
+
+#theupdateformid h2 {
+    font-size: unset;
+    margin-bottom: .4em;
+    margin-top: 1em;
+}
+
+h2.formupdatetitle {
+    font-size: 1.4em !important;
+    margin-top: 0 !important;
+}
+
+.insideside {
+    padding: 2em;
+    position: fixed;
+    left: 0;
+    height: 100vh;
+    background: #1a237e;
+    width: 16%;
+}
+
+.thelinkdiv a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    color: white;
+}
+
+.thelinkdiv {
+    padding: 1em;
+    margin-bottom: .4em;
+}
+
+
+.themainclass {
+    margin-bottom: 4em;
+}
+
+select {
+    appearance: none;
+    background: url(https://recipe.finology.in/Images/icon-down.svg) no-repeat right 0.6em center/1.4em;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    cursor: pointer;
+    border: 1px solid grey;
+    border-radius: 6px;
+}
+
+.thelinkdiv.linkmatched {
+    background: white;
+    color: black;
+    border-radius: 8px;
+}
+
+.thelinkdiv.linkmatched a {
+    color: black;
+}
+
+.therightside {
+    padding: 0 2em 0 0;
+}
+
+.therightside h2 {
+    font-size: unset;
+    margin-bottom: .8em;
+    margin-top: 1.2em;
+}
+
+span.buy {
+    background: green;
+    color: white;
+    padding: .2em .6em;
+    border-radius: .5em;
+}
+
+span.sell {
+    background: rgb(234, 8, 19);
+    color: white;
+    padding: .2em .6em;
+    border-radius: .5em;
+}
+
+span.theprofit {
+    color: green;
+    font-weight: 800;
+}
+span.theloss {
+    color: red;
+    font-weight: 800;
+}
+
+svg.themonk {
+    stroke: black;
+    margin-right: .6em;
+    margin-bottom: 0;
+}
+
+svg.thephone {
+    stroke: white;
+    margin-right: .6em;
+    margin-bottom: 0;
+}
+
+select.topselect {
+    width: 160px;
+}
+
+.stockpatti {
+    display: flex;
+    border-radius: 5px 5px 0 0;
+    background: #1a237e;
+    margin-right: 2em;
+    color: white;
+}
+
+.stockpatti div {
+    min-width: 135px;
+    padding: .5em .2em;
+}
+
+.stockdiv {
+    display: flex;
+    box-shadow: 0 0 1px black;
+    margin-right: 2em;
+}
+
+.mgs {
+    min-width: 134.6px;
+    box-shadow: 0 0 1px black;
+    padding: .5em .2em;  
+    text-align: center;
+}
+
+.mainkl {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap: 5.8%;
+}
+.mainkl div {
+    padding: 1em;
+    border: 1px solid;
+    margin-bottom: 2em;
+    border-radius: 1em;
+    box-shadow: 0 0 0px 3px #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+}
+
+span.jiclass {
+    margin-top: .5em;
+}
+
+span.green {
+    background: green;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 6px;
+}
+
+span.red {
+    background: red;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 6px;
+}
+
+.announcement {
+    margin-bottom: 2em;
+    font-size: 1.4em;
+    margin-right: 2em;
+}
+
+.mgchart {
+    margin-right: 2em;
+    margin-bottom: 6em;
+}
+
+
+.chartgrid div {
+    height: max-content !important;margin-bottom: 2em;
+}
+
+.helloji {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.maindetail .huzoor {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2em;
+}
+
+.maindetail{
+    padding: 4em 2em;
+}
+
+.chartgrid h2 {
+    margin-bottom: 1em;
+}
+
+.thepattist {margin: 2em 0;}
+
+.thepattist a {
+    text-decoration: none;
+    padding: 1em 2em;
+    margin-right: 1em;
+    background: #1a237e;
+    color: white;
+    border-radius: .5em;
+}
+
+.wait{
+    width:100vw;
+    padding: 4em 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2em;
+}
